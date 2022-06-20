@@ -1,0 +1,155 @@
+body {
+	margin: 0;
+}
+.body {
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	font-weight: 600;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+	overflow: hidden;
+}
+.Blue-bg {
+	/* background-color: rgb(0, 110, 255); */
+	margin-left: 15px;
+	width: 45px;
+	border-radius: 5px;
+	color: white;
+	font-size: 15px;
+}
+.Grey-bg {
+	cursor: pointer;
+	margin-top: -18px;
+	width: 18px;
+	height: 18px;
+	border-radius: 5px;
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 12px;
+	background-color: rgb(0, 119, 255);
+	transition: 0.3s ease-in;
+}
+ul {
+	list-style-type: none;
+	position: relative;
+	top: 40px;
+	width: 200px;
+}
+.Moon-icon {
+	width: 10px;
+	height: auto;
+	position: relative;
+	top: 140px;
+	left: 70px;
+	z-index: 99;
+}
+
+.Grey-bg-image {
+	width: 10px;
+	height: 10px;
+	margin-left: 5px;
+	margin-top: -9px;
+	/* filter: invert(100%) sepia(0%) saturate(2%) hue-rotate(146deg)
+		brightness(107%) brightness(101%); */
+	/* filter: invert(0%) sepia(0%) saturate(13%) hue-rotate(235deg)
+		brightness(235%) brightness(235%); */
+}
+li {
+	margin-top: 26px;
+	margin-left: 22px;
+	top: -4px;
+	border-radius: 5px;
+	padding-left: 10px;
+	position: relative;
+	left: -15px;
+	cursor: pointer;
+	font-size: 90%;
+}
+li:hover {
+	background-color: rgb(105, 105, 105);
+}
+.Menu-bg {
+	background-color: white;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 24px;
+	position: relative;
+	top: -400px;
+	left: 50px;
+	height: 600px;
+	width: 45px;
+	border-radius: 10px;
+}
+input {
+	outline: none;
+	position: relative;
+	top: 60px;
+	left: -5px;
+	border-radius: 5px;
+	background-color: rgb(233, 233, 233);
+	border: none;
+}
+input::placeholder {
+	color: rgb(0, 0, 0);
+	padding-left: 30px;
+}
+input,
+select,
+textarea {
+	color: rgb(151, 151, 151);
+}
+.search-icon {
+	height: 13px;
+	width: 13px;
+	position: relative;
+	top: 58px;
+	left: 18px;
+	z-index: 99;
+}
+.menu-item {
+	margin-left: 15px;
+	padding-left: 10px;
+	position: relative;
+	left: -10px;
+	cursor: pointer;
+	transition-timing-function: ease-in-out;
+}
+.menu-item:hover {
+	background-color: rgb(105, 105, 105);
+	border-radius: 5px;
+	width: 130px;
+}
+.nav-arrow {
+	width: 10px;
+	height: 10px;
+}
+.user-details {
+	background-color: rgb(230, 230, 230);
+	height: 52px;
+	width: 200px;
+	border-radius: 5px;
+	position: fixed;
+	bottom: 27px;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 24px;
+}
+.user-details h4 {
+	font-size: 13px;
+	margin-left: 50px;
+	position: relative;
+	top: 6px;
+	width: 100px;
+	transition: 0.3s ease-in;
+}
+.image-display {
+	position: fixed;
+	bottom: 35px;
+	background-color: rgb(0, 110, 255);
+	width: 35px;
+	height: 35px;
+	border-radius: 100px;
+	left: 55px;
+}
+/* div {
+	color: rgb(29, 29, 29);
+} */
+.Moon-icon:hover + div {
+	color: rgb(255, 0, 0);
+}
